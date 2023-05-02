@@ -31,4 +31,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ```
 Set-ExecutionPolicy RemoteSigned 입력 후 [A] 모두 예 선택
 ```
+```
 Get-ExecutionPolicy 입력 후 변경된 권한 확인
+```
