@@ -1,5 +1,6 @@
 <script setup>
-  import PostView from './PostView.vue'; 
+  import PostView from './PostView.vue';
+  import MyPage from './MyPage.vue';
 </script>
 
 <template>
@@ -27,6 +28,9 @@
         <textarea class="write-box">write!</textarea>
       </div>
     </div>
+    <div v-if="step === 3">
+      <MyPage :one="1" />
+    </div>
     
   </div>
 </template>
@@ -37,6 +41,7 @@ export default {
   name: 'ContainerView',
   component: {
     PostView,
+    MyPage,
   },
   props: {
     post: Array,

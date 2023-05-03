@@ -47,12 +47,13 @@ export default {
     return {
       post: data,
       count: 0,
-      step: 0,
+      step: 3,
       image: '',
     }
   },
   components: {
     ContainerView,
+    
   },
   methods : {
     more() {
